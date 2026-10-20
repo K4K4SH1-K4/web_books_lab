@@ -1,0 +1,27 @@
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: sans-serif;
+}
+p {
+  color: maroon;
+}
+h1,
+h2 {
+  color: gray;
+}
+h1 {
+  border-bottom: 1px solid black;
+}
+em {
+  font-family: "Times New Roman", Times, serif;
+}
+p.white_coffee {
+  color: rgb(70, 157, 238);
+}
+p.decorated_coffee {
+  color: rgb(34, 182, 132);
+}
+p.long_cupped_coffee {
+  color: rgb(128, 70, 70);
+}
