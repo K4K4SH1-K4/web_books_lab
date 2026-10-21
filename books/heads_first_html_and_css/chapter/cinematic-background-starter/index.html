@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b18">
+  <title>Cinematic Background Lab</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <!-- Decorative background: the website content sits above it. -->
+  <div class="scene" aria-hidden="true">
+    <div class="scene__glow scene__glow--blue"></div>
+    <div class="scene__glow scene__glow--violet"></div>
+    <div class="scene__grid"></div>
+    <canvas class="scene__particles"></canvas>
+    <div class="scene__shade"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Orbit home">
+      <span class="brand__mark"></span>
+      ORBIT<span class="brand__dot">.</span>
+    </a>
+    <span class="header-note">A SMALL MOTION EXPERIMENT</span>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow"><span class="eyebrow__line"></span> DIGITAL EXPERIENCES · 001</p>
+    <h1>Ideas in<br><span>motion.</span></h1>
+    <p class="hero__description">
+      A living canvas of light, color, and code. No video file or animation software required.
+    </p>
+    <a class="hero__button" href="#about">
+      Explore the experiment <span aria-hidden="true">↗</span>
+    </a>
+    <div class="hero__meta">
+      <span><i class="status-dot"></i> CSS + JavaScript</span>
+      <span>BUILT IN THE BROWSER</span>
+    </div>
+  </main>
+
+  <section class="about" id="about">
+    <p>THE IDEA</p>
+    <h2>Small code. Big atmosphere.</h2>
+    <p>Gradients create the light, CSS moves it, and JavaScript adds a light dusting of particles.</p>
+  </section>
+
+  <footer class="site-footer">
+    <span>BACKGROUND LAB / 01</span>
+    <span>MOVE SLOW. BUILD WELL.</span>
+  </footer>
+</body>
+</html>

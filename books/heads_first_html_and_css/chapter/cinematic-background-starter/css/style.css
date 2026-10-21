@@ -5,7 +5,7 @@
   --muted: #a2abc5;
   --blue: #2563eb;
   --violet: #8b5cf6;
-  --night: #080808;
+  --night: #070b18;
   --page-gutter: clamp(1.25rem, 5vw, 5rem);
 }
 
@@ -27,14 +27,7 @@ body {
   overflow-x: hidden;
   background: var(--night);
   color: var(--ink);
-  font-family:
-    Inter,
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 /* 2. Fixed background layer. It stays behind the page as you scroll. */
@@ -204,10 +197,7 @@ h1 span {
   color: var(--ink);
   font-size: 0.9rem;
   text-decoration: none;
-  transition:
-    background 180ms ease,
-    border-color 180ms ease,
-    transform 180ms ease;
+  transition: background 180ms ease, border-color 180ms ease, transform 180ms ease;
 }
 
 .hero__button:hover {
@@ -269,21 +259,13 @@ h1 span {
 
 /* 4. Keep motion gentle for visitors who request reduced motion. */
 @keyframes drift-blue {
-  from {
-    transform: translate3d(0, 0, 0) scale(1);
-  }
-  to {
-    transform: translate3d(12vw, 9vh, 0) scale(1.12);
-  }
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to { transform: translate3d(12vw, 9vh, 0) scale(1.12); }
 }
 
 @keyframes drift-violet {
-  from {
-    transform: translate3d(0, 0, 0) scale(1.05);
-  }
-  to {
-    transform: translate3d(-10vw, -8vh, 0) scale(0.92);
-  }
+  from { transform: translate3d(0, 0, 0) scale(1.05); }
+  to { transform: translate3d(-10vw, -8vh, 0) scale(0.92); }
 }
 
 @media (max-width: 600px) {

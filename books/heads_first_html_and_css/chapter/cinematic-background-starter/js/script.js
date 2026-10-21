@@ -12,7 +12,7 @@
   let particles = [];
   let animationFrame = 0;
   let lastFrameTime = 0;
-  const particleCount = 200;
+  const particleCount = 42;
   const colors = ["147, 197, 253", "167, 139, 250", "196, 181, 253"];
 
   function resizeCanvas() {
@@ -33,7 +33,7 @@
       speed: 0.12 + Math.random() * 0.32,
       drift: (Math.random() - 0.5) * 0.18,
       alpha: 0.2 + Math.random() * 0.55,
-      color: colors[Math.floor(Math.random() * colors.length)],
+      color: colors[Math.floor(Math.random() * colors.length)]
     }));
   }
 
