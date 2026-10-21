@@ -3,6 +3,9 @@ body {
   margin-right: 5%;
   font-family: sans-serif;
 }
+p.coffee_cup {
+  text-align: center;
+}
 p {
   color: maroon;
 }
@@ -11,10 +14,18 @@ h2 {
   color: gray;
 }
 h1 {
-  border-bottom: 1px solid black;
+  text-decoration: underline;
+  font-weight: lighter;
+  font-family: cursive;
 }
 em {
   font-family: "Times New Roman", Times, serif;
+}
+strong.dollar {
+  text-decoration: line-through;
+}
+h2.direction {
+  font-family: cursive;
 }
 p.white_coffee {
   color: rgb(70, 157, 238);

@@ -1,0 +1,4 @@
+font-weight property 
+- Has these values(lighter, light, normal, bold and bolder) for changing font weight
+text-decoration:
+ property values include: none, underline, overline, line-through and blink

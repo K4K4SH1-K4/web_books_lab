@@ -1,0 +1,32 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: small;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 150%;
+}
+h1,
+h2 {
+  color: grey;
+  font-weight: normal;
+}
+blockquote {
+  font-style: italic;
+}
+.june,
+ul.essentials,
+p.lastText {
+  color: rgb(6, 116, 116);
+}
+ul.essentials,
+.toDo {
+  font-family: cursive;
+}
+p.toDo {
+  font-weight: bold;
+}
