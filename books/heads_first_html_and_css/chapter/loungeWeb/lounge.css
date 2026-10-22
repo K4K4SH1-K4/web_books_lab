@@ -1,22 +1,52 @@
 body {
-  margin-left: 5%;
-  margin-right: 5%;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  line-height: 1.6em;
+  margin: 30px;
 }
-p.coffee_cup {
-  text-align: center;
+.page-header {
+  background-color: #007e7e;
+  background-image: url(assets/coffee-gif2_lounge.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 20px;
+  border-radius: 15px;
 }
-p {
-  color: maroon;
+#main-nav {
+  margin-top: 35px;
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+  padding-right: 10px;
+}
+#main-nav li {
+  font-family: cursive;
+  font-weight: bolder;
+  display: inline-block;
+}
+#main-nav a {
+  color: white;
+  background-color: #007e7e;
+  padding: 18px;
+  margin-right: 40px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #444444;
+  text-decoration: none;
+  margin: 10px;
+}
+#main-nav a:hover {
+  color: aquamarine;
 }
 h1,
 h2 {
-  color: gray;
+  color: #007e7e;
 }
 h1 {
-  text-decoration: underline;
-  font-weight: lighter;
-  font-family: cursive;
+  font-size: 150%;
+}
+h2 {
+  font-size: 130%;
 }
 em {
   font-family: "Times New Roman", Times, serif;
@@ -24,15 +54,76 @@ em {
 strong.dollar {
   text-decoration: line-through;
 }
-h2.direction {
-  font-family: cursive;
+#gurantee {
+  line-height: 1.9em;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: #444444;
+  border-width: 1.5px;
+  border-style: dashed;
+  border-color: white;
+  background-color: #a7cece;
+  margin-right: 500px;
+  margin-left: 60px;
+  background-image: url(assets/gurantee-star1.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 20px;
+  padding-left: 90px;
+  padding-top: 28px;
 }
-p.white_coffee {
+
+#elixirs {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #007e7e;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin: 10px;
+  width: 400px;
+  line-height: 1em;
+  float: right;
+}
+
+#elixirs h1 {
+  color: #065353;
+}
+#elixirs h2 {
+  color: #055e5e;
+}
+.white_coffee {
   color: rgb(70, 157, 238);
 }
-p.decorated_coffee {
+.decorated_coffee {
   color: rgb(34, 182, 132);
 }
-p.long_cupped_coffee {
+.long_cupped_coffee {
   color: rgb(128, 70, 70);
+}
+#elixirs a:link {
+  color: #007e7e;
+}
+#elixirs a:visited {
+  color: #333333;
+}
+#elixirs a:hover {
+  color: #0d5353;
+}
+
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
+}
+#footer {
+  color: red;
+}
+p.white_coffee,
+p.decorated_coffee,
+p.long_cupped_coffee {
+  line-height: 1.2em;
 }

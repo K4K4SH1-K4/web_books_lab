@@ -12,12 +12,20 @@ body {
     "Helvetica Neue",
     sans-serif;
 }
+.page-header {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  background-image: url(../assets/coffee-gif_green-matte.gif);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
 h1 {
-  color: #2f4f4f;
+  color: white;
   margin-bottom: 10px;
 }
 #main-nav {
-  margin-top: 10px;
+  margin-top: 35px;
   list-style: none;
   padding-left: 0;
   text-align: right;
@@ -28,8 +36,11 @@ h1 {
 }
 #main-nav a {
   color: white;
-  background-color: #13a4a4;
-  padding: 5px;
-  border-radius: 3px;
+  background-color: green;
+  padding: 8px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: orange;
   text-decoration: none;
+  margin: 10px;
 }
