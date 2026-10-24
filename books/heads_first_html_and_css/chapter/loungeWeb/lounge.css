@@ -119,8 +119,12 @@ strong.dollar {
 .artist {
   font-weight: bold;
 }
-#footer {
-  color: red;
+footer {
+  color: #065353;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 p.white_coffee,
 p.decorated_coffee,
